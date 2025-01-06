@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+  .border-border {
+    border: 2px solid #ccc;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -64,9 +71,10 @@
     @apply border-border;
   }
 
-  body {
+  /* body {
     @apply bg-background text-foreground;
-  }
+  } */
+   
 }
 
 body {
