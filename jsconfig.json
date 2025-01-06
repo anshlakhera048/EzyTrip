@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    // ...
+    "types": ["har-format"],
     "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
       ]
     }
-    // ...
+ 
   }
 }
 
